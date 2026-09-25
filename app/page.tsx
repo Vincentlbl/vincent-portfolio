@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Marquee from './components/Marquee';
 import Reveal from './components/Reveal';
 import { stats, techStack } from './lib/data';
+import Experience from './components/Experience';
 
 export default function Home() {
   return (
@@ -28,8 +29,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Espace temporaire */}
-        <div className="h-[50vh]" />
+        <Experience />
       </main>
     </>
   );
